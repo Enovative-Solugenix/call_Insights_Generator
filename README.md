@@ -11,14 +11,16 @@ Before running the program, ensure that you have the following installed:
 1. **Python:** Download and install Python from [python.org](https://www.python.org/downloads/).
    - Make sure to check the option to add Python to your system PATH during installation.
    - Use Python verion 3.10 .
+  
+2. **NodeJS:** Download and Install Node.js from [https://nodejs.org/en](https://nodejs.org/en)
 
-2. **PyCharm (Optional):** You can use any code editor, but PyCharm is recommended for a smoother development experience. Download PyCharm from [jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/).
+3. **PyCharm (Optional):** You can use any code editor, but PyCharm is recommended for a smoother development experience. Download PyCharm from [jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/).
 
-3. **VS Code (Optional):** You can use any code editor, but VS Code is recommended for a smoother development experience. Download VS Code from [https://code.visualstudio.com/download](https://code.visualstudio.com/download).
+4. **VS Code (Optional):** You can use any code editor, but VS Code is recommended for a smoother development experience. Download VS Code from [https://code.visualstudio.com/download](https://code.visualstudio.com/download).
 
-## Setup
+## Setup for PyCharm(Python) 
 1. **Install Speech Recognition Library:**
-   - Open a terminal or command prompt.
+   - Open a terminal or command prompt in PyCharm.
    - Run the following command to install the Speech Recognition library:
      ```bash
      pip install SpeechRecognition
@@ -65,14 +67,23 @@ Then open terminal and type pip install googletrans==4.0.0-rc1
 ##Downloads required from External Sources(ffmpeg)
      Download ffmpeg 6.1.1 Windows 64 bit from here [https://www.videohelp.com/software/ffmpeg]
      Steps to add it into the path-> 
+     
      Move the ffpmeg folder into C-Drive->Copy Bin Path ‪[C:\ffmpeg-6.1.1-full_build\bin]-> Add into environment variables
      Add this line into your python code-> os.environ["PATH"] += os.pathsep + r'C:\ffmpeg-6.1.1-full_build\bin
 
-2. **Run the Program:**
+2. **Setting up the Angular Project**
+   - Go to the Project Directory and extract the Angular Code Folder
+   - Install the Angular CLI globally by this command:
+      npm install
+      
+3. **Command to run the Angular Code**
+   ng serve --open
+
+4. **After that Run the Program in PyCharm:**
    - Open the program file in PyCharm or your preferred code editor.
    - Run the program.
 
-##If your model is taking a lot of time, then you can change model type from large to medium
+## If your model is taking a lot of time, then you can change model type from large to medium
 [model_size = "large-v3"], here instead of large-v3 you can write [model_size = "medium"] and your model will work faster
 
 ## Usage
