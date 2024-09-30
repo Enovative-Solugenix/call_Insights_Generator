@@ -64,7 +64,7 @@ Then open terminal and type pip install googletrans==4.0.0-rc1
 
 
 
-##Downloads required from External Sources(ffmpeg)
+## Downloads required from External Sources(ffmpeg)
      Download ffmpeg 6.1.1 Windows 64 bit from here [https://www.videohelp.com/software/ffmpeg]
      Steps to add it into the path-> 
      
@@ -77,9 +77,9 @@ Then open terminal and type pip install googletrans==4.0.0-rc1
       npm install
       
 3. **Command to run the Angular Code**
-   ng serve --open
+   - ng serve --open
 
-4. **After that Run the Program in PyCharm:**
+4. **After that Run the Python-AI Code Folder in PyCharm:**
    - Open the program file in PyCharm or your preferred code editor.
    - Run the program.
 
